@@ -3,14 +3,14 @@ let yesScale = 1;
 let volumeLevel = 0.5; // 🔊 Volume modifiable (0.0 à 1.0)
 
 // Sons
-const yesSound = new Audio("/static/media/rizz.mp3");
-const gotchaSound = new Audio("/static/media/gotcha.mp3");
-const disappearSound = new Audio("/static/media/disappear.mp3")
+const yesSound = new Audio("static/media/rizz.mp3");
+const gotchaSound = new Audio("static/media/gotcha.mp3");
+const disappearSound = new Audio("static/media/disappear.mp3")
 
 const noSounds = [
-    new Audio("/static/media/bruh.mp3"),
-    new Audio("/static/media/noot.mp3"),
-    new Audio("/static/media/wrong.mp3")
+    new Audio("static/media/bruh.mp3"),
+    new Audio("static/media/noot.mp3"),
+    new Audio("static/media/wrong.mp3")
 ];
 
 // Appliquer le volume
