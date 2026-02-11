@@ -70,13 +70,13 @@ html, body {
 ========================= */
 
 /* Petits écrans (<600px) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .title-sec {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .sub-sec {
-        font-size: 1em;
+        font-size: .8em;
     }
 
     .buttons-sec {
